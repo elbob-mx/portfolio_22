@@ -1,0 +1,18 @@
+:root {
+    --dark-nav-link: #f8f8f8;
+    --light-nav-link: #121212;
+
+    --dark-background-color: black;
+    --light-background-color: #f8f8f8;
+
+    --navlink-bottom-border1: #6A8694;
+    --navlink-bottom-border2: #5215FC;
+    --navlink-bottom-border3: #09CAC7;
+    --navlink-background-color: yellow;
+
+    --button-text-hover: black;
+
+    --background-footer: #333333;
+
+    --source-code-pro: 'Source Code Pro', monospace;
+}

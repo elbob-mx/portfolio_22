@@ -11,18 +11,33 @@ html {
   margin-top: 200px;
 }
 
+p {
+  font-family: var(--source-code-pro);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 1024px) {
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   grid-auto-rows: (100px, auto);
   align-content:center;
   margin-top: 400px;
+  margin-left: 30px;
 }
 
 .item {
-  
+  width: 33%;
+  padding: 0;
+  margin: 0;
 }
 
+footer {
+  background-color: dimgray;
+  height: 50px;
+  text-align: right;
+}
 }

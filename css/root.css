@@ -8,9 +8,12 @@
   --navlink-bottom-border1: #6a8694;
   --navlink-bottom-border2: #5215fc;
   --navlink-bottom-border3: #09cac7;
-  --navlink-background-color: #ffff00;
+  --navlink-background-color1: #ffff00;
+  --navlink-background-color2: #5372ff;
 
   --button-text-hover: #000000;
+
+  --h2-text: #f8f8f8;
 
   --footer-background: #333333;
   --footer-text: #f8f8f8;

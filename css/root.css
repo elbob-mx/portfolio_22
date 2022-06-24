@@ -1,18 +1,19 @@
 :root {
-    --dark-nav-link: #f8f8f8;
-    --light-nav-link: #121212;
+  --dark-nav-link: #f8f8f8;
+  --light-nav-link: #121212;
 
-    --dark-background-color: black;
-    --light-background-color: #f8f8f8;
+  --dark-background-color: #000000;
+  --light-background-color: #f8f8f8;
 
-    --navlink-bottom-border1: #6A8694;
-    --navlink-bottom-border2: #5215FC;
-    --navlink-bottom-border3: #09CAC7;
-    --navlink-background-color: yellow;
+  --navlink-bottom-border1: #6a8694;
+  --navlink-bottom-border2: #5215fc;
+  --navlink-bottom-border3: #09cac7;
+  --navlink-background-color: #ffff00;
 
-    --button-text-hover: black;
+  --button-text-hover: #000000;
 
-    --background-footer: #333333;
+  --footer-background: #333333;
+  --footer-text: #f8f8f8;
 
-    --source-code-pro: 'Source Code Pro', monospace;
+  --source-code-pro: "Source Code Pro", monospace;
 }

@@ -1,0 +1,28 @@
+body,
+html {
+  font-family: var(--source-sans-pro);
+  background-color: var(--dark-background-color);
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  display: inline-block;
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 1024px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: (100px, auto);
+  align-content:center;
+  margin-top: 400px;
+}
+
+.item {
+  
+}
+
+}

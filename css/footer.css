@@ -49,6 +49,7 @@ footer .container {
 img.footer-homer {
     width: 50%;
     height: auto;
+    align-items: flex-end;
 }
 
 .dev-footer p {
@@ -56,6 +57,7 @@ img.footer-homer {
     font-family: var(--source-code-pro);
     font-size: 0.8rem;
     text-align: right;
+    padding-right: 10px;
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 735px) {
+@media (min-width: 0px) {
   ul.nav__bar {
   width: 100vw;
   display: inline-flex;
@@ -38,7 +38,7 @@
 
 
 /* DESKTOP --------------> */
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 1024px) {
   ul.nav__bar {
     width: 100vw;
     display: flex;

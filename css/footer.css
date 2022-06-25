@@ -1,24 +1,20 @@
-@media (min-width: 0px) and (max-width: 735px) {
+@media (min-width: 0px) {
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-footer .container {
+/* footer .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-
-
-.footer-homer {
-  height: 30px;
-  width: auto;
-}
+} */
 
 .network {
   display: flex;
@@ -29,16 +25,16 @@ footer .container {
 }
 
 .network__link {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin: 0.5rem 0.5rem;
-    padding: 10px;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 1.5rem;
+  align-items: center;
 }
 
 .network__link img {
-    width: 40px;
+    width: 35px;
 }
 
 .dev-footer {
@@ -66,24 +62,22 @@ img.footer-homer {
 
 
 /* DESKTOP --------------> */
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 1024px) {
   footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.footer-homer {
-  height: 30px;
-  width: auto;
+    width: 100vw;
 }
 
 .network {
@@ -95,12 +89,12 @@ footer .container {
 }
 
 .network__link {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin: 0.5rem 0.5rem;
-    padding: 10px;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 3rem;
+  align-items: center;
 }
 
 .network__link img {

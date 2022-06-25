@@ -1,0 +1,16 @@
+.network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-items: center;
+}
+
+.network__icons {
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }

@@ -9,37 +9,95 @@ html {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  /* margin: 10px 0; */
+}
+
+.item-homer2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--h2-color-text);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .grid-text {
   color: white;
   font-family: var(--source-code-pro);
-  width: 100vw;
+  line-height: 14pt;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding-left: 20px;
+  width: 300px;
 }
+
+  footer {
+    align-content: center;
+    align-items: center;
+    color: var(--footer-text);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .footer-homer {
+    height: 30px;
+    width: auto;
+  }
 
 
 
 @media screen and (min-width: 1024px) {
+  body,
+html {
+  background-color: var(--dark-background-color);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 20px;
+    row-gap: 40px;
+    column-gap: 10px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
+  }
+
+  .grid-item {
+    width: auto;
+  }
+
+  img {
+    width: 100%;
   }
 
   .grid-text {
     color: white;
     font-family: var(--source-code-pro);
+    line-height: 18pt;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    /* padding-left: 20px; */
     width: 300px;
-    padding-left: 20px;
   }
 
   h2 {
-    color: var(--h2-text);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--h2-color-text);
     font-size: 2rem;
     font-weight: bold;
   }
@@ -53,7 +111,8 @@ html {
     flex-wrap: wrap;
     font-family: var(--source-code-pro);
     justify-content: center;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 80px;
     padding: 10px;
   }
 

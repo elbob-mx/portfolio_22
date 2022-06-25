@@ -33,6 +33,7 @@ footer .container {
     height: 20px;
     margin: 0.5rem 0.5rem;
     padding: 10px;
+    align-items: center;
 }
 
 .network__link img {
@@ -41,7 +42,7 @@ footer .container {
 
 .dev-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: right;
     align-items: left;
 }
@@ -57,7 +58,8 @@ img.footer-homer {
     font-family: var(--source-code-pro);
     font-size: 0.8rem;
     text-align: right;
-    padding-right: 10px;
+    align-items: center;
+    margin-right: 20px;
 }
 
 @media screen and (min-width: 1024px) {

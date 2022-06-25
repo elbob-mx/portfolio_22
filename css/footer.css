@@ -1,3 +1,4 @@
+@media (min-width: 0px) and (max-width: 735px) {
 footer {
     display: flex;
     flex-direction: row;
@@ -61,18 +62,70 @@ img.footer-homer {
     align-items: center;
     margin-right: 20px;
 }
+}
 
-@media screen and (min-width: 1024px) {
+
+/* DESKTOP --------------> */
+@media screen and (min-width: 736px) {
   footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
-  }
+}
 
-  .footer-homer {
-    height: 30px;
-    width: auto;
-  }
+footer .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-homer {
+  height: 30px;
+  width: auto;
+}
+
+.network {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.network__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem 0.5rem;
+    padding: 10px;
+    align-items: center;
+}
+
+.network__link img {
+    width: 40px;
+}
+
+.dev-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: left;
+}
+
+img.footer-homer {
+    width: 50%;
+    height: auto;
+    align-items: flex-end;
+}
+
+.dev-footer p {
+    color: var(--footer-text);
+    font-family: var(--source-code-pro);
+    font-size: 0.8rem;
+    text-align: right;
+    align-items: center;
+    margin-right: 20px;
+}
 }

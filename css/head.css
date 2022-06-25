@@ -63,16 +63,16 @@
     padding: 0 10px;
     text-transform: uppercase;
     transition: 0.5s;
-    width: auto;
+    width: 300px;
   }
   
-  .header__link:active {
+  .header__link:hover {
     border-left: 10px solid yellow;
     color: white;
     margin: 0 10px;
     padding: 0 10px;
     text-transform: uppercase;
     transition: 0.5s;
-    width: auto;
+    width: 300px;
   }
 }

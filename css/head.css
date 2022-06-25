@@ -10,9 +10,10 @@
 .header__link {
   border-left: 0 solid yellow;
   color: var(--dark-nav-link);
-  display:inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-family: var(--inter);
   font-size: 1rem;
+  font-weight: 600;
   margin: 0 10px;
   padding: 0 10px;
   text-transform: uppercase;
@@ -40,17 +41,17 @@
 /* DESKTOP --------------> */
 
 @media screen and (min-width: 1024px) {
-
   .header__logo {
     width: auto;
-  }  
-  
+  }
+
   .header__link {
     border-left: 0 solid yellow;
     color: var(--dark-nav-link);
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--inter);
+    font-weight: 600;
     font-size: 1.7rem;
     margin: 20px 10px;
     padding: 0 10px;
@@ -58,7 +59,7 @@
     transition: 0.5s;
     width: auto;
   }
-  
+
   .header__link:hover {
     border-left: 20px solid yellow;
     color: white;

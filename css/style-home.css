@@ -53,7 +53,7 @@
 
   .slogan h1 {
     font-size: 2rem;
-    font-family: var(--inter);
+    font-family: 'Courier New', Courier, monospace;
     color: var(--dark-slogan-text);    
   }
 

@@ -52,7 +52,7 @@
   }
 
   .slogan h1 {
-    font-size: 3.7rem;
+    font-size: 2rem;
     font-family: var(--inter);
     color: var(--dark-slogan-text);    
   }
